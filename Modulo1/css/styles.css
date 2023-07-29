@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(147, 147, 229);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div{
+    font-size: 18px;
+}
+
+p{
+    font-size: 10px;
+}
+
+.publi{
+    font-family: Arial, Helvetica, sans-serif;
+}
