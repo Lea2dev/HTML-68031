@@ -15,10 +15,32 @@ h3 {
     background-color: #FCEE21;
 }
 
+h4{
+    text-transform: uppercase;
+    font-size: 2.3em;
+}
+
 ul {
     list-style-type: none;
 }
 
+ol{
+    font-size: 1.8em;
+    font-weight: 400;
+    list-style-position: inside;
+    line-height: 1.8em;
+}
+/*
+li:nth-child(7) {
+    background-color: #FCEE21;
+}*/
+li:nth-last-child(-n+1){
+    background-color: #FCEE21;
+}
+
+.amarillo{
+    background-color: #FCEE21;
+}
 
 footer h1 {}
 

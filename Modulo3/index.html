@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h2>Borde de imagen</h2>
+    <img style="border: 8px solid #336699;" src="https://embeddedcomputing.weebly.com/uploads/1/1/6/2/11624344/128-logo-visual-studio-code_1_orig.png" alt="VScode">
+    <img style="border: 8px dotted #336699;" src="https://embeddedcomputing.weebly.com/uploads/1/1/6/2/11624344/128-logo-visual-studio-code_1_orig.png" alt="VScode">
+    <img style="border: 8px dashed #336699;" src="https://embeddedcomputing.weebly.com/uploads/1/1/6/2/11624344/128-logo-visual-studio-code_1_orig.png" alt="VScode">
+    <img style="border: 8px double #336699;" src="https://embeddedcomputing.weebly.com/uploads/1/1/6/2/11624344/128-logo-visual-studio-code_1_orig.png" alt="VScode">
+    <img style="border-bottom: 8px double #336699;" src="https://embeddedcomputing.weebly.com/uploads/1/1/6/2/11624344/128-logo-visual-studio-code_1_orig.png" alt="VScode">
+    <img style="border: 8px double #336699; border-radius: 30px;" src="https://embeddedcomputing.weebly.com/uploads/1/1/6/2/11624344/128-logo-visual-studio-code_1_orig.png" alt="VScode">
+
+    <p style="border: 8px double #336699;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo impedit eius enim illum fuga repellat et, nobis provident? Deserunt magnam illo modi qui praesentium? Mollitia similique repellat cumque porro magni.</p>
+
+
+    <h2>List styles</h2>
+
+    <ol type="i"> <!-- ordered list, o lista ordenada-->
+        <!-- por estilo se usa
+            list-style-type:lower-alpha
+        -->
+        <li>Elemento de lista</li>
+        <li>Elemento de lista</li>
+        <li>Elemento de lista</li>
+        <li>Elemento de lista</li>
+        <li>Elemento de lista</li>
+        <li>Elemento de lista</li>
+    </ol>
+<p>&nbsp;</p>
+
+<ul type="circle"> <!-- un-ordered list, o lista desordenada-->
+    
+    <li>Elemento de lista</li>
+    <li>Elemento de lista</li>
+    <li>Elemento de lista</li>
+    <li>Elemento de lista</li>
+    <li>Elemento de lista</li>
+    <li>Elemento de lista</li>
+</ul>
+<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+
+<h2>Forms</h2>
+<h3>GET</h3>
+<p>Para obtener info y no necesitar modificar</p>
+<h3>POST</h3>
+<p>Para enviar info, para crear/actualizar registros</p>
+
+<form action="formulario.php" method="post" id="form1">
+    <!-- elemnentos pertecientes al form-->
+    <input type="text" name="nombre" id="" placeholder="Complete su nombre" maxlength="5">
+    <input type="submit" value="Enviar">
+    <input type="password">
+    <input type="number" name="edad" min="0" max="99">
+    <input type="email" name="" id="" required>
+    <input type="text" name="" id="" disabled placeholder="Contenido deshabilitado">
+    <input type="file" multiple>
+    <input type="reset">
+    <textarea name="" id="" cols="30" rows="5"></textarea>
+</form>
+
+<button type="submit" form="form1">enviar2</button>
+<input type="radio" name="sexo" value="hombre" checked="checked">Hombre
+<input type="radio" name="sexo" value="mujer" >Mujer
+
+<form action="form.php">
+    <input type="checkbox" name="bici" value="bicicleta" checked>Me voy en bici<br>
+    <input type="checkbox" name="auto" value="automovil">Me voy en auto<br>
+    <input type="checkbox" name="barco" value="barquito" checked>Me voy en barco<br>
+</form>
+
+<form action="">
+    
+    <select>
+        <option value="opcion1">Opcion 1 </option>
+        <option value="opcion2" selected>Opcion 2 </option>
+    </select>
+<br><br>
+    <fieldset>
+        <legend>Hola soy un recuadro</legend>
+        <label for="nombre">Nombre *</label><br>
+        <input type="text" name="nombre" id="">
+    </fieldset>
+</form>
+
+<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+</body>
+</html>

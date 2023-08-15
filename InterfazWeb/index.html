@@ -49,22 +49,42 @@
             <li>Repuestas a mensajes y consultas</li>
             <li>Segmentación de promociones según el público objetivo de la pauta publicitaria</li>
             <li>Diagramamos un calendario que se ajuste a los objetivos de la empresa</li>
+            <!-- <div style="background-color: yellow;display: inline-block;"> -->
+            <!-- <li class="amarillo">¡Empezamos a comunicar!</li> -->
             <li>¡Empezamos a comunicar!</li>
+            <!-- </div> -->
         </ol>
     </section>
     <section>
         <a id="contacto"></a>
-        <h4>¿Quéres que nos contactemos con vos?</h4>
+        <h5>¿Quéres que nos contactemos con vos?</h5>
         <p>Envianos tu consulta >></p>
-        FORM
+        
+        <form action="php/codigo.php" method="post">
+            <label> Nombre <span>*</span> <br>
+                <input name="nombre" required type="text">
+            </label>
+            <label> Email <span>*</span><br>
+                <input name="email" required type="email">
+            </label>
+            <label for="">Mensaje <span>*</span> <br>
+                <textarea required name="comentarios" cols="30" rows="10"></textarea>
+            </label>
+
+            <div>
+                <input class="boton" type="submit" value="Enviar Consulta">
+                <input class="boton" type="reset" value="Borrar">
+            </div>
+        </form>
+
     </section>
 
     <aside>
         <div>redes wwwapas</div>
-        <img src="img/instagram-icon.png" alt="IG">
-        <img src="img/dribbble-icon.png" alt="Dribble">
-        <img src="img/linkedin-icon.png" alt="LinkedIn">
-        <img src="img/facebook-icon.png" alt="Fb">
+        <div><a href="http://www.instagram.com" target="_blank" alt="IG" title="Ir a instagram"><img src="img/instagram-icon.png" alt="IG"></a></div>
+        <div><a href="http://www.dribble.com" target="_blank" alt="Dribble"><img src="img/dribbble-icon.png" alt="Dribble"></a></div>
+        <div><a href="http://www.linkedin.com" target="_blank" alt="LinkedIn"><img src="img/linkedin-icon.png" alt="LinkedIn"></a></div>
+        <div><a href="http://www.facebook.com" target="_blank" alt="Fb"><img src="img/facebook-icon.png" alt="Fb"></a></div>
     </aside>
 
 
