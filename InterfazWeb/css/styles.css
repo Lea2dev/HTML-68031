@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700;900&display=swap');
-
+/*
+    font-family: 'Coiny', cursive;
+    font-family: 'Roboto', sans-serif;
+*/
 body {
+    margin: 0px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     background-color: #f2f2f2;
 }
 
-nav h1{
+nav h1 {
     font-family: 'Coiny', cursive;
 }
 
@@ -15,35 +19,98 @@ h3 {
     background-color: #FCEE21;
 }
 
-h4{
+h4 {
     text-transform: uppercase;
-    font-size: 2.3em;
+    font-size: 2em;
+    margin-top: 0px;
+    margin-bottom: 0.8em;
 }
 
 ul {
     list-style-type: none;
 }
 
-ol{
-    font-size: 1.8em;
+a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 30px;
+}
+
+a:hover{
+    color:#888;
+}
+
+ol {
+    font-size: 1em;
     font-weight: 400;
     list-style-position: inside;
     line-height: 1.8em;
 }
+
 /*
 li:nth-child(7) {
     background-color: #FCEE21;
 }*/
-li:nth-last-child(-n+1){
+ol li:nth-last-child(-n+1) {
     background-color: #FCEE21;
 }
 
-.amarillo{
+.amarillo {
     background-color: #FCEE21;
 }
 
-footer h1 {}
+footer h1 {
+    font-size: 1em;
+    font-family: 'Coiny', cursive;
+    display: inline;
+    margin-left: 60px;  /* top right bottom left*/
+}
 
 footer {
     background-color: yellow;
+}
+
+.ancho45{
+    margin:0.5em;
+    width: 45%;
+    display: inline-block;
+    text-align: justify;
+}
+
+.borderBottom{
+    border-bottom: 1px solid black;
+}
+
+section{
+    padding:20px;
+}
+
+label, input, textarea{
+    display: block;
+}
+
+input, textarea{
+    margin-bottom:0.8em;
+}
+
+label{
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.colRojo{
+    color: #DD0000;
+}
+
+aside a img{
+    width: 15%;
+}
+
+aside{
+    margin-top: 1em;
+}
+
+.boton{
+    background-color: #000;
+    color:#EEE;
 }
