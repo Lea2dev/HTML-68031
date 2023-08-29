@@ -1,27 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flex y tablas</title>
     <style>
-        #A{
+        section {
+            padding: 50px;
+            font-size: 40px;
+            color: white;
+        }
+
+        #A {
             background-color: red;
         }
-        #B{
+
+        #B {
             background-color: green;
         }
-        #C{
+
+        #C {
             background-color: blue;
         }
-        main{
-            height:300px;
+
+        main {
+            height: 300px;
             border: 1px solid black;
             display: flex;
-            flex-direction: column;
+            align-items: flex-end;
+            justify-content: start;
+
         }
     </style>
 </head>
+
 <body>
 
     <h1>Flex</h1>
@@ -30,6 +43,54 @@
         <section id="B">B</section>
         <section id="C">C</section>
     </main>
-    
+
+    <div style="background-color: blanchedalmond"><a
+            href="https://codepen.io/LeandroPais/pen/gOQLqGa">https://codepen.io/LeandroPais/pen/gOQLqGa</a></div>
+
+
+    <h2>iFrame</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/PXxC3HOKU_8?si=AjJX8c-z4WIfgQfK"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+
+    <video src="../Modulo4/index.html" controls width="300px" height="200px"></video>
+
+    <audio src="../Modulo4/index.html" controls muted loop></audio>
+
+    <br><br><br><br><br><br><br><br>
+
+    <table border="1" cellspacing="0" cellpadding="10px">
+        <caption>Titulo tabla explicativa</caption>
+        <thead>
+           <th>Encabezado1</th>
+           <th>Encabezado2</th>
+           <th>Encabezado3</th> 
+        </thead>
+        <tr>  <!-- row o sea "fila" -->
+            <td rowspan="2">hola</td>
+            <td>hola 2</td>
+            <td>hola 3</td>
+        </tr>
+        <tr>  <!-- row o sea "fila" -->
+            
+            <td>hola 2</td>
+            <td>hola 3</td>
+        </tr>
+        <tr>  <!-- row o sea "fila" -->
+            <td>hola</td>
+            <td colspan="2">hola 2</td>
+        </tr>
+        <tfoot>
+            <td>pie</td>
+            <td>pie</td>
+            <td>pie</td>
+        </tfoot>
+    </table>
+
+
+    <br><br><br><br><br><br><br><br>
+
 </body>
+
 </html>

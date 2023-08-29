@@ -3,20 +3,48 @@
     font-family: 'Coiny', cursive;
     font-family: 'Roboto', sans-serif;
 */
+
+*{
+    box-sizing: border-box;
+}
+
 body {
     margin: 0px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     background-color: #f2f2f2;
+    border-top: 4px solid #FCEE21;
+    font-size: 28px;
 }
 
 nav h1 {
     font-family: 'Coiny', cursive;
+    font-size: 56px;
+}
+
+.menu{    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 60px;
+}
+
+.wwwapas{
+    font-family: 'Coiny', cursive;
+    font-size: 117px;
+    line-height: 90px;
+}
+
+.encolumnar{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 h2,
 h3 {
     background-color: #FCEE21;
+    font-size: 34px;
 }
 
 h4 {
@@ -24,6 +52,7 @@ h4 {
     font-size: 2em;
     margin-top: 0px;
     margin-bottom: 0.8em;
+    font-size: 54px;
 }
 
 ul {
@@ -53,6 +82,8 @@ li:nth-child(7) {
 }*/
 ol li:nth-last-child(-n+1) {
     background-color: #FCEE21;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .amarillo {
@@ -60,7 +91,7 @@ ol li:nth-last-child(-n+1) {
 }
 
 footer h1 {
-    font-size: 1em;
+    font-size: 44px;
     font-family: 'Coiny', cursive;
     display: inline;
     margin-left: 60px;  /* top right bottom left*/
@@ -68,29 +99,31 @@ footer h1 {
 
 footer {
     background-color: yellow;
-}
-
-.ancho45{
-    margin:0.5em;
-    width: 45%;
-    display: inline-block;
-    text-align: justify;
+    font-size: 28px;
+    padding: 20px;
 }
 
 .borderBottom{
     border-bottom: 1px solid black;
 }
-
+/*
 section{
     padding:20px;
 }
-
+*/
 label, input, textarea{
     display: block;
+    font-size: 26.6px;
+    padding: 10px;
 }
 
 input, textarea{
     margin-bottom:0.8em;
+    width: 100%;
+}
+
+.w60{
+    width: 60%;
 }
 
 label{
@@ -102,15 +135,53 @@ label{
     color: #DD0000;
 }
 
+.contacto{
+    font-size: 68px;
+    font-weight: bold;
+    background-color: #000;
+    color: #f2f2f2;
+    line-height: 100px;
+    display: inline;
+}
+
 aside a img{
-    width: 15%;
+    width: 52%;
 }
 
 aside{
     margin-top: 1em;
+    font-size: 33.3px;
+    color: #888;
+    margin-bottom: 50px;
 }
 
 .boton{
     background-color: #000;
     color:#EEE;
+    font-size: 32px;
+    padding: 5px 15px;
+}
+
+
+
+.p60{
+    padding: 60px;
+}
+
+
+
+@media screen and (max-width:1200px) {
+    
+    .encolumnar{
+        flex-direction: column;
+    }
+
+}
+
+@media print {
+
+    .noImprimir{
+        display: none;
+    }
+
 }

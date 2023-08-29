@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <nav>
+    <nav class="menu">
         <h1>wwwwapas</h1>
         <ul>
             <li>
@@ -19,27 +19,27 @@
             </li>
         </ul>
     </nav>
-    <header class="borderBottom">
-        <div class="ancho45">
-            <h2>somos <span style="font-family: 'Coiny', cursive;">wwwapas</span></h2>
+    <header class="encolumnar">
+        <div class="p60">
+            <h1>somos <span class="wwwapas">wwwapas</span></h1>
             <h2>social media managers | creadoras de contenido</h2>
             <p>Nos encargamos de construir, gestionar y administrar la comunidad online de tu marca, empresa o negocio.
                 <strong>¡Creamos relaciones estables y duraderas con tus clientes!</strong>
             </p>
         </div>
-        <div class="ancho45">
-            <img src="img/foto.png" alt="Juli y Sofi" width="90%">
+        <div class="p60 noImprimir">
+            <img src="img/foto.png" alt="Juli y Sofi" width="100%">
         </div>
     </header>
 
-    <section class="borderBottom">
-        <div class="ancho45">
+    <section class="borderBottom encolumnar">
+        <div class="p60">
             <h3>¡Hola! Somos SOFI & JULIA,</h3>
             las social media managers, las creadoras de contenido, las copywriters, las generadoras de leads, las
             diseñadoras, las estrategas en marketing digital, las potenciadoras de ventas, el posicionamiento de tu
             marca.<strong>¡Somos el complemento que necesitás para hacer crecer tu marca! ¡Somos wwwapas!</strong>
         </div>
-        <div class="ancho45">
+        <div class="p60">
             <h3>GESTIONAMOS TUS REDES SOCIALES</h3>
             La transformación digital no es solo para grandes compañías, todas las empresas deben emprenderla cuanto
             antes y
@@ -48,12 +48,12 @@
         </div>
     </section>
 
-    <section class="borderBottom">
-        <div class="ancho45">
+    <section class="borderBottom encolumnar">
+        <div class="p60 noImprimir">
             <img src="img/img-servicios.png" alt="Diagrama servicios" width="90%">
         </div>
 
-        <div class="ancho45">
+        <div class="p60">
             <h4 id="servicios">Servicios</h4>
             <ol>
                 <li>Análisis de perfil (Benchmarking)</li>
@@ -70,33 +70,32 @@
         </div>
     </section>
 
-    <section>
-        <div class="ancho45">
-            <a id="contacto"></a>
-            <h5>¿Quéres que nos contactemos con vos?</h5>
-            <p>Envianos tu consulta >></p>
+    <section class="encolumnar">
+        <div class="p60">
+            <h5 id="contacto" class="contacto">¿Quéres que nos contactemos con vos?</h5>
+            <h2>Envianos tu consulta >></h2>
         </div>
-        <div class="ancho45">
+        <div class="p60 w60">
             <form action="php/codigo.php" method="post">
                 <label> Nombre <span class="colRojo">*</span>
-                    <input name="nombre" required type="text">
+                    <input name="nombre" required type="text" placeholder="Complete su nombre y apellido">
                 </label>
                 <label> Email <span class="colRojo">*</span>
-                    <input name="email" required type="email">
+                    <input name="email" required type="email" placeholder="sucorreo@dominio.com">
                 </label>
                 <label for="">Mensaje <span class="colRojo">*</span>
                     <textarea required name="comentarios" cols="30" rows="10"></textarea>
                 </label>
 
-                <div>
-                    <input class="boton" type="submit" value="Enviar Consulta">
-                    <input class="boton" type="reset" value="Borrar">
+                <div class="encolumnar">
+                    <button class="boton" type="submit" value="Enviar Consulta">Enviar Consulta</button>
+                    <button class="boton" type="reset" value="Borrar">Borrar</button>
                 </div>
             </form>
         </div>
     </section>
 
-    <aside>
+    <aside class="encolumnar p60">
         redes <br> wwwapas
         <a href="http://www.instagram.com" target="_blank" alt="IG" title="Ir a instagram">
             <img src="img/instagram-icon.png" alt="IG">
@@ -115,7 +114,7 @@
 
 
     <footer>
-        <h1>wwwwpas</h1>
+        <h1>wwwapas</h1>
         <a href="mailto:wwwapas_sm@gmail.com">wwwapas_sm@gmail.com</a>
     </footer>
 
