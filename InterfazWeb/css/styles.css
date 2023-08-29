@@ -117,6 +117,10 @@ label, input, textarea{
     padding: 10px;
 }
 
+label{
+    padding:0px;
+}
+
 input, textarea{
     margin-bottom:0.8em;
     width: 100%;
